@@ -1,0 +1,7 @@
+<h1>{{ article.article_path }}</h1>
+{% if error_message %} <p><strong>{{error_message}}</strong></p>{% endif%}
+
+<a href="{{ article.article_path }}">Testing</a>
+<ul>
+    <li>{{ article.category.category_text}}</li>
+</ul>
